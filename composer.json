@@ -1,0 +1,40 @@
+{
+    "name": "phpbbfr/phpbb-extension-style-installer",
+    "type": "composer-plugin",
+    "description": "A composer plugin, to install phpbb-extension-style composer packages in ext/{vendor-name/extension-name}/styles/{style-name} directory instead of the default composer installation path which is in the vendor folder",
+    "version": "1.0.0",
+    "keywords": [
+        "composer",
+        "plugin",
+        "phpbb",
+        "extension",
+        "style"
+    ],
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Zoddo",
+            "email": "zoddo@phpbb-fr.com"
+        },
+        {
+            "name": "phpBB-fr.com website team",
+            "email": "site@phpbb-fr.com",
+            "homepage": "http://www.phpbb-fr.com/go/website-team"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "composer-plugin-api": "*"
+    },
+    "require-dev": {
+        "composer/composer": "~1.10"
+    },
+    "autoload": {
+        "psr-0": {
+            "phpbbfr\\PhpbbExtensionStyleInstaller": "src/"
+        }
+    },
+    "extra": {
+        "class": "phpbbfr\\PhpbbExtensionStyleInstaller\\Plugin"
+    }
+}
