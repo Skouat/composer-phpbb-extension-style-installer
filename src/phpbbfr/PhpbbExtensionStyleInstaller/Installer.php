@@ -22,9 +22,4 @@ class Installer extends LibraryInstaller
 
         return sprintf('ext/%s/styles/%s', $extension, $style);
     }
-
-    public function supports($packageType)
-    {
-        return $packageType == 'phpbb-extension-style';
-    }
 }

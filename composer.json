@@ -2,7 +2,7 @@
     "name": "phpbbfr/phpbb-extension-style-installer",
     "type": "composer-plugin",
     "description": "A composer plugin, to install phpbb-extension-style composer packages in ext/{vendor-name/extension-name}/styles/{style-name} directory instead of the default composer installation path which is in the vendor folder",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "composer",
         "plugin",
